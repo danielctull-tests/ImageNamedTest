@@ -18,6 +18,10 @@
 		24A192A616A992630030FAE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A192A516A992630030FAE5 /* Default-568h@2x.png */; };
 		24A192AF16A9927B0030FAE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A192AD16A9927B0030FAE5 /* ViewController.m */; };
 		24A192B016A9927B0030FAE5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A192AE16A9927B0030FAE5 /* ViewController.xib */; };
+		24A192B916A993B60030FAE5 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A192B116A993B60030FAE5 /* Blue.png */; };
+		24A192BC16A993B60030FAE5 /* Yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A192B416A993B60030FAE5 /* Yellow@2x.png */; };
+		24A192BE16A993B60030FAE5 /* Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A192B616A993B60030FAE5 /* Blue@2x.png */; };
+		24A192BF16A993B60030FAE5 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A192B716A993B60030FAE5 /* Yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		24A192AC16A9927B0030FAE5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24A192AD16A9927B0030FAE5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24A192AE16A9927B0030FAE5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		24A192B116A993B60030FAE5 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		24A192B416A993B60030FAE5 /* Yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow@2x.png"; sourceTree = "<group>"; };
+		24A192B616A993B60030FAE5 /* Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue@2x.png"; sourceTree = "<group>"; };
+		24A192B716A993B60030FAE5 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,10 @@
 				24A192AC16A9927B0030FAE5 /* ViewController.h */,
 				24A192AD16A9927B0030FAE5 /* ViewController.m */,
 				24A192AE16A9927B0030FAE5 /* ViewController.xib */,
+				24A192B116A993B60030FAE5 /* Blue.png */,
+				24A192B616A993B60030FAE5 /* Blue@2x.png */,
+				24A192B716A993B60030FAE5 /* Yellow.png */,
+				24A192B416A993B60030FAE5 /* Yellow@2x.png */,
 				24A1929616A992630030FAE5 /* Supporting Files */,
 			);
 			path = ImageNamedTest;
@@ -163,6 +175,10 @@
 				24A192A416A992630030FAE5 /* Default@2x.png in Resources */,
 				24A192A616A992630030FAE5 /* Default-568h@2x.png in Resources */,
 				24A192B016A9927B0030FAE5 /* ViewController.xib in Resources */,
+				24A192B916A993B60030FAE5 /* Blue.png in Resources */,
+				24A192BC16A993B60030FAE5 /* Yellow@2x.png in Resources */,
+				24A192BE16A993B60030FAE5 /* Blue@2x.png in Resources */,
+				24A192BF16A993B60030FAE5 /* Yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +273,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageNamedTest/ImageNamedTest-Prefix.pch";
 				INFOPLIST_FILE = "ImageNamedTest/ImageNamedTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +285,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageNamedTest/ImageNamedTest-Prefix.pch";
 				INFOPLIST_FILE = "ImageNamedTest/ImageNamedTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -292,6 +310,7 @@
 				24A192AB16A992630030FAE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

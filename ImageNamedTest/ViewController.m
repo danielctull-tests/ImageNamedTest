@@ -9,30 +9,20 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UIImageView *imageView1;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView2;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView3;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView4;
 @end
 
 @implementation ViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	self.imageView1.image = [UIImage imageNamed:@"Yellow"];
+	self.imageView2.image = [UIImage imageNamed:@"Blue.png"];
+	self.imageView3.image = [UIImage imageNamed:@"Yellow@2x.png"];
+	self.imageView4.image = [UIImage imageNamed:@"Blue@2x.png"];
 }
 
 @end
